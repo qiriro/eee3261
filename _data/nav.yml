@@ -16,5 +16,5 @@ items:
   icon_class: fas fa-user-graduate
 
 - url: /materials/
-  name: Textbooks
+  name: Resources
   icon_class: fas fa-book
