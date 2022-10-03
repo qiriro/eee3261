@@ -1,0 +1,47 @@
+# Site settings
+course_name: Microcontroller and Embedded Systems
+course_description: "This course provides a basic understanding of embedded computer systems: Hardware/software systems and co design. C programming for embedded microcontroller and peripheral devices. Principles and practice of using Embedded RTOS (Real Time Operating System) and peripheral devices such as sensors and actuators to build a small embedded system. Peripheral interfacing methods and standards. Analog digital conversion methods and interfacing. Low power design. Design methodologies and tools. Design projects. Students will gain design experience with project/case studies using contemporary high-level methods and tools."
+course_semester: "2022: Semester II"
+
+baseurl: "/eee3261" # the subpath of your site, e.g. /blog/
+url: "https://qiriro.com" # the base hostname & protocol for your site
+# schoolname: "University of Rwanda"
+# schoolurl: ""
+twitter_username: nkuzito 
+
+address: 
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+google_analytics: UA-255547804
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
