@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: Oct 10 12:04:16 CAT 2022
+date: Oct 10 12:36:30 CAT 2022
 title: 'Lab #2'
 pdf: /static_files/labs/Lab2/lab2.pdf
 solutions: 
